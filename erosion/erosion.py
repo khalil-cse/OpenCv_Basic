@@ -1,7 +1,7 @@
 # Importing the OpenCV library
 import cv2
 import numpy as np
-image = cv2.imread('video/road.jpg')
+image = cv2.imread('video/road.jpg')  #image path
 image1=cv2.resize(image,(500,500))
 cv2.imshow('orginal',image1)
 # Creating kernel
